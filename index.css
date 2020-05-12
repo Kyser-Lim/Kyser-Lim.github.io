@@ -1,6 +1,81 @@
 /* CSS Document*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color:#f4f5f4;
+}
+
+.logo{
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+li, a, button{
+  background-color: #004AAD;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding 30px 10%;
+  background-color: #004AAD;
+}
+body{
+    margin: 0;
+}
 h1 {
    font-size: 2em;
-  text-align: center;
-   color: red;
+   text-align: center;
+   color: white;
+   background-color: lightblue;
+   width: 100%;
+   margin: 0 auto;
 }
+
+.intro{
+  padding: 30px;
+  margin: 30px;
+}
+
+nav{
+}
+.nav_links{
+  list-style:none;
+  background-color: #004AAD;
+}
+
+.nav_links li{
+   display: inline-block;
+  padding: 0px 20px;
+   font-size: 25px;
+}
+
+.nav_links li a{
+   transition:all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color: #0088a9;
+}
+
+button{
+  margin: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 16px;
+}
+
+button:hover{
+  background-color: rgba(0, 136, 169, 0.8);
+}
+}
+
