@@ -28,6 +28,22 @@ header{
 body{
     margin: 0;
 }
+
+.ECE{
+  background-color: transparent;
+  color: black;
+}
+
+.P2{
+  background-color: transparent;
+  color: black;
+}
+
+.UT{
+  background-color: transparent;
+  color: #CB5727;
+}
+
 h1 {
    font-size: 2em;
    text-align: center;
@@ -37,9 +53,17 @@ h1 {
    margin: 0 auto;
 }
 
+
+.box{
+    border-style: groove;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
 .intro{
-  padding: 30px;
-  margin: 30px;
+  float: center;
+  padding: 20px;
+  margin: 20px;
 }
 
 nav{
