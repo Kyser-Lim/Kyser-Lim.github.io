@@ -13,7 +13,7 @@
 }
 
 li, a, button{
-  background-color: #004AAD;
+  background-color: #1DA1F2;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -23,7 +23,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding 30px 10%;
-  background-color: #004AAD;
+  background-color: #1DA1F2;
 }
 body{
     
