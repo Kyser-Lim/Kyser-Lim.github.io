@@ -7,6 +7,7 @@
 }
 
 .logo{
+
   width: 100px;
   height: auto;
   cursor: pointer;
@@ -25,65 +26,19 @@ header{
   padding 30px 10%;
   background-color: #1DA1F2;
 }
-body{
-    
-}
-.introSpan{
-    font-weight: 100;
-    font-family: Cloud, Helvetica, sans-serif;
-}
 
-.ECE{
-  background-color: transparent;
-  color: black;
-  opacity: 0.8;
-}
-
-.P2{
-  background-color: transparent;
-  color: black;
-  opacity: 0.8;
-}
-
-.UT{
-  background-color: transparent;
-  color: #CB5727;
-}
-
-h1 {
-   font-size: 2em;
-   text-align: center;
-   color: white;
-   background-color: lightblue;
-   width: 100%;
-   margin: 0 auto;
-}
-
-
-.box{
-    border-style: groove;
-    margin-top: 40px;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.intro{
-  float: center;
-  padding: 20px;
-  margin: 20px;
-}
-
-nav{
-}
 .nav_links{
   list-style:none;
-  background-color: #004AAD;
+  background-color: #1DA1F2;
   font-family: Cloud, Helvetica, sans-serif;
 }
 
 .nav_links li{
-   display: inline-block;
+  margin: auto;
+
+  display: inline-block;
   padding: 0px 20px;
-   font-size: 25px;
+  font-size: 25px;
 }
 
 .nav_links li a{
@@ -111,5 +66,73 @@ button{
 button:hover{
   background-color: rgba(0, 136, 169, 0.8);
 }
+
+
+.slideshow-container{
+  margin-top: 50px;
+  border-style: solid;
+  max-width: 1000px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.slideshow-container img{
+  display: block;
+  margin: 0 auto;
+}
+
+img{
+    height: 500px;
+    object-fit: contain;
+}
+
+.introSpan{
+    font-weight: 100;
+    font-family: Cloud, Helvetica, sans-serif;
+}
+
+
+.intro{
+  float: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.ECE{
+  background-color: transparent;
+  color: black;
+  opacity: 0.8;
+}
+
+.P2{
+  background-color: transparent;
+  color: black;
+  opacity: 0.8;
+}
+
+.UT{
+  background-color: transparent;
+  color: #CB5727;
+}
+
+
+h1 {
+   font-size: 2em;
+   text-align: center;
+   color: white;
+   background-color: lightblue;
+   width: 100%;
+   margin: 0 auto;
+}
+
+
+.box{
+    border-style: groove;
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 115px;
+    margin-bottom: 500px;
+}
+
 
